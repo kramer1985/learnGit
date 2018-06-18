@@ -17,6 +17,7 @@ int main ()
 char* ptr= "bonjour";
 char* tabptr[]={"test", "coucou", "informatique", "linux"};
 
+printf("this a code to learn git :)\n");
 	send_data(adresse, valeur);
 	printf("valeur : %d\n", send_data(adresse, valeur));
 	printf("valeur : %d\n", a);
