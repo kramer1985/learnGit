@@ -1,16 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#include "proto.h"
 
 int a = 20;
 int adresse = 123;
 int valeur = 400;
 
-unsigned int send_data(int entier, int entier2)
-{
- int result = 0;
- result = entier + entier2;
- return result;
-}
 
 int main ()
 {
